@@ -1,0 +1,33 @@
+==COPY PASTE ==
+
+Copy : Y
+Cut : dd
+Paste : P
+
+Copy n next lines : :yn
+
+== LINES EDIT ==
+
+Remove current line : d
+Remove n next lines : :dn
+
+Search and replace all : :%s/toSearch/toReplace/g
+Search and replace all with confirmation : :%s/toSearch/toReplace/gc
+
+== GENERAL ==
+
+Undo : u
+Redo : ctrl + R
+Go to line n : :n
+Go to line containing term "xx" : /xx
+Go to end of file : G
+Go to end of file and insert after : Ga
+Remove current character : r[right]
+Replace current character by c : rc
+
+== FILE BROWSING ==
+
+Open current directory : :Explore
+Edit a particular file : :e [file]
+Go to next / previous file : :bn / :bp
+
